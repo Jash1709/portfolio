@@ -1,0 +1,131 @@
+body{
+    background-color: #1d1d20;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin:0 ;
+}
+.page{
+    height: 100vh;
+}
+.svg{
+    position: absolute;
+    top: 0;
+    left: 110px;
+}
+.gradient1 {
+    stop-color: rgb(116,59,144);
+    transition: all .3s ease-in-out;
+}
+.gradient2 {
+    stop-color: rgb(85,136,64);
+    transition: all .3s ease-in-out;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#socials{
+    width:150px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+section{
+    width: 70vw;
+    margin: 0 auto;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+.left-display{
+    width: 70%;
+}
+.left-display h1{
+    font-size: 72px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.left-display p{
+    width: 90%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 2;
+    border-width: 1.5px;
+    border-style: solid;
+    border-image: linear-gradient(to right top, #714fc8, #0089fc, #00afe4, #00c995, #7ed739)1;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left:10px ;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    margin-top: 30px;
+}
+
+.project-wrapper  {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.project-wrapper a {
+    text-decoration: none;
+    background-color: #1d1d20;
+    margin-bottom: 20px;
+    padding: 2px;
+    border: none;
+    text-align: left;   
+}
+.project-wrapper a:hover{
+    scale: 1.1;
+}
+.project-wrapper a span{
+    width: 100%;
+    border-width: 1.5px;
+    border-style: solid;
+    border-image: linear-gradient(to right top, #714fc8, #0089fc, #00afe4, #00c995, #7ed739)1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-bottom: 8px;  
+}
+#footer-svg{
+    position:absolute;
+    right: 110px;
+    bottom: 0;
+}
+
+.project-desc{
+    width: 100%;
+    margin: auto;
+}
+.project-desc h1{
+    font-size: 72px;
+    margin-bottom: 0;
+    font-weight: lighter;
+}
+.project-desc p{
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 2;
+    border-width: 1.5px;
+    border-style: solid;
+    border-image: linear-gradient(to right top, #714fc8, #0089fc, #00afe4, #00c995, #7ed739)1;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left:10px ;
+}

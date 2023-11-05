@@ -1,0 +1,79 @@
+body{
+    background-color: #1d1d20;
+    color: #d1d1d1;
+    font-family: 'Montserrat', sans-serif;
+    margin:0 ;
+}
+#svg-top{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+}
+.gradient1 {
+    stop-color: rgb(116,59,144);
+    transition: all .3s ease-in-out;
+}
+.gradient2 {
+    stop-color: rgb(85,136,64);
+    transition: all .3s ease-in-out;
+}
+#back{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    
+    position: absolute;
+    margin: 0 auto;
+  
+    top: 70px;
+    left: 240px;
+}
+#back img{
+    border-radius: 50%;
+}
+.project-desc{
+    width: 60%;
+    margin: 12% auto;
+}
+.project-desc h1{
+    font-size: 58px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+.project-desc p{
+    width: 90%;
+    text-align: left;
+    font-size: 16px;
+    line-height: 2;
+    border-width: 1.5px;
+    border-style: solid;
+    border-image: linear-gradient(to right top, #714fc8, #0089fc, #00afe4, #00c995, #7ed739)1;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    padding-left:10px ;
+
+}
+.view-site{
+    margin-top: 50px;
+    margin-left: 5px;
+    width: 100%;
+}
+.view-site a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #d1d1d1;
+    border: 1.5px solid #d1d1d1;
+    padding: 10px 30px;
+    font-weight: 500;
+}
+.view-site a:hover{
+    background-color: #d1d1d1;
+    color: #1d1d20;
+}
+#svg-foot{
+    position:absolute;
+    right: 180px;
+    bottom: 20px;
+}
