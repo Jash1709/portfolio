@@ -1,0 +1,50 @@
+body{
+    background-color: #1d1d20;
+    color: #d1d1d1;
+    font-family: 'Montserrat', sans-serif;
+    margin:0 ;
+}
+#svg-top{
+    position: absolute;
+    top: 20px;
+    left: 180px;
+}
+.gradient1 {
+    stop-color: rgb(116,59,144);
+    transition: all .3s ease-in-out;
+}
+.gradient2 {
+    stop-color: rgb(85,136,64);
+    transition: all .3s ease-in-out;
+}
+#svg-foot{
+    position:absolute;
+    right: 180px;
+    top: 55%;
+}
+.project_main{
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.project_main h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.project_wrapper{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.project_card{
+    margin: 30px;
+    text-align: center;
+    
+}
+
+.project_card img{
+    width: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
