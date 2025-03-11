@@ -22,6 +22,20 @@ body{
     right: 180px;
     top: 55%;
 }
+#back{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    
+    position: absolute;
+    margin: 0 auto;
+  
+    top: 70px;
+    left: 240px;
+}
+#back img{
+    border-radius: 50%;
+}
 .project_main{
     width: 65%;
     margin: 0 auto;
@@ -40,13 +54,17 @@ body{
 .project_card{
     margin: 30px;
     text-align: center;
+    width: 250px;
+    height: 150px;
     
 }
 
 .project_card img{
     width: 250px;
+    height: 134px;
     border-radius: 10px;
-    object-fit: cover;
+    object-fit: contain;
+    
 }
 .project_card a{
     text-decoration: none;

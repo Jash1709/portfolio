@@ -10,7 +10,7 @@ body{
 .svg{
     position: absolute;
     top: 0;
-    left: 110px;
+    left: 50px;
 }
 .gradient1 {
     stop-color: rgb(116,59,144);
@@ -34,7 +34,7 @@ nav{
     justify-content: space-around;
 }
 section{
-    width: 70vw;
+    width: 80vw;
     margin: 0 auto;
 }
 .content-container{
@@ -103,7 +103,7 @@ section{
 }
 #footer-svg{
     position:absolute;
-    right: 110px;
+    right: 50px;
     bottom: 0;
 }
 
@@ -128,4 +128,67 @@ section{
     border-bottom: none;
     border-right: none;
     padding-left:10px ;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    section {
+        width: 90vw; /* Wider section on smaller screens */
+    }
+
+    .content-container {
+        flex-direction: column; /* Stack content vertically */
+    }
+
+    .left-display {
+        width: 100%; /* Full width for mobile */
+    }
+
+    .left-display h1 {
+        font-size: 36px; /* Smaller heading */
+    }
+
+    .left-display p {
+        font-size: 14px; /* Smaller text */
+    }
+
+    #socials {
+        width: 100%; /* Full width for social icons */
+        justify-content: center; /* Center social icons */
+    }
+
+    .project-wrapper a {
+        padding: 10px; /* More padding for touch targets */
+    }
+
+    .project-wrapper a span {
+        font-size: 14px; /* Smaller font size for project links */
+    }
+
+    .project-desc h1 {
+        font-size: 48px; /* Smaller heading for project description */
+    }
+
+    .project-desc p {
+        font-size: 14px; /* Smaller text for project description */
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column; /* Stack navigation items */
+        align-items: center; /* Center navigation items */
+    }
+
+    .left-display h1 {
+        font-size: 28px; /* Further reduce heading size */
+    }
+
+    .left-display p {
+        font-size: 12px; /* Further reduce text size */
+    }
+
+    .project-wrapper a {
+        margin-bottom: 15px; /* Reduce margin for smaller screens */
+    }
 }
